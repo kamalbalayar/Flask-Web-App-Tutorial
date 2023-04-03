@@ -1,3 +1,18 @@
+<style>
+  .container{
+    height:400px;
+  }
+  .bottom{
+    height:auto;
+    width:auto;
+    align: center;
+    padding-bottom:10px;
+    text-decoration:none;
+  }
+  .bottom.label:hover {
+    text-decoration: none;
+    text-decoration-color: red;
+}
 {% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
 %}
 <form method="POST">
